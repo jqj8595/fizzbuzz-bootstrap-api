@@ -6,7 +6,7 @@
 docker build --tag=fizzbuzz-api:latest .  
 3. Run the container using the docker image created:
 docker run -p8881:8081 fizzbuzz-api:latest
-Note: It maps port 8881 to 8081, if port 8081 is in use you can simply change the port in the application.properties file inside the project.
+- Note: It maps port 8881 to 8081, if port 8081 is in use you can simply change the port in the application.properties file inside the project.
 Send a Get request using the endpoint http://localhost:8881/api/fizz/{upperLimit} 
 You can pass integers to the upperLimit URI param.
 Example requests:
