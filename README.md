@@ -28,7 +28,8 @@ Further test scenarios to consider can be:
 - Testing response times compared to expected times - SLA
 
 
-Enabliing authentication- I have configured basic auth java class in the folder com.api.fizzbuzzapi.security.SecurityConfig which extends the WebSecurityConfigurerAdapter used from the libaries added by the spring-boot-starter-security dependency. 
+*Enabliing Authentication*
+I have configured basic auth in a java class in the folder com.api.fizzbuzzapi.security.SecurityConfig.java which extends the WebSecurityConfigurerAdapter used from the libaries added by the spring-boot-starter-security dependency. 
 This shares a temp password each time you run the application, which you need to use when sending a request to the api using basic auth.
 To further improve this we could look at rate limiting to limit amount of requests sent by a user, bearer tokens, or access tokens using oAuth.
 
