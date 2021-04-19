@@ -16,7 +16,7 @@ Example requests:
 
 
 *Automated Testing using SOAPUI*
-I have used soapui as I am mostly familiar with this tool as an automated test suite. You can find the soapui xml file in /src/test/SoapUI/fizzbuzz-api.xml.
+- I have used soapui as I am mostly familiar with this tool as an automated test suite. You can find the soapui xml file in /src/test/SoapUI/fizzbuzz-api.xml.
 Import this project xml file into soapui and run test cases as shown in the screenshot below.
 <img width="1792" alt="Screen Shot 2021-04-19 at 5 08 54 PM" src="https://user-images.githubusercontent.com/20781377/115205070-48bf9180-a14d-11eb-91c6-ecbf31f27328.png">
 
@@ -29,7 +29,7 @@ Further test scenarios to consider can be:
 
 
 *Enabliing Authentication*
-I have configured basic auth in a java class in the folder com.api.fizzbuzzapi.security.SecurityConfig.java which extends the WebSecurityConfigurerAdapter used from the libaries added by the spring-boot-starter-security dependency. 
+- I have configured basic auth in a java class in the folder com.api.fizzbuzzapi.security.SecurityConfig.java which extends the WebSecurityConfigurerAdapter used from the libaries added by the spring-boot-starter-security dependency. 
 This shares a temp password each time you run the application, which you need to use when sending a request to the api using basic auth.
 To further improve this we could look at rate limiting to limit amount of requests sent by a user, bearer tokens, or access tokens using oAuth.
 
