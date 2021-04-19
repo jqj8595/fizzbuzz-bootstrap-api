@@ -22,7 +22,7 @@ Import this project xml file into soapui and run test cases as shown in the scre
 
 As you can see I have created two automated test cases that pass using the fizzbuzz api, one for positive numbers and the other using negative numbers.
 Further test scenarios to consider can be:
-- Validating http status codes for the variety we could get, including when basic auth is enabled. 
+- Validating http status codes for the variety of response codes we could get, including when basic auth is enabled. 
 - Testing large integers and decimals.
 - Testing responses when api is not running
 - Testing response times compared to expected times - SLA
