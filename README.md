@@ -1,10 +1,11 @@
-# FizzBuzz Game: A BootStrap Spring Boot API 
+# FizzBuzz Game: A BootStrap Spring Boot API
+Project runs using Docker
 
 *To run the project*
 1. Simply go to the fizzbuzz-api folder in the repo https://github.com/jqj8595/fizzbuzz-bootstrap-api/tree/main/fizzbuzz-api where you will find the Dockerfile.
-2. Create a docker image out of the docker file by running:
+2. Create a Docker Image out of the Docker File by running:
 docker build --tag=fizzbuzz-api:latest .  
-3. Run the container using the docker image created:
+3. Run the container using the Docker Image created:
 docker run -p8881:8081 fizzbuzz-api:latest
 - Note: It maps port 8881 to 8081, if port 8081 is in use you can simply change the port in the application.properties file inside the project.
 Send a Get request using the endpoint http://localhost:8881/api/fizz/{upperLimit} 
