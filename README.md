@@ -1,4 +1,4 @@
-# BootStrap Spring boot API FizzBuzz Game
+# BootStrap Spring boot API FizzBuzz
 
 *To run the project*
 1. Simply go to the fizzbuzz-api folder in the repo https://github.com/jqj8595/fizzbuzz-bootstrap-api/tree/main/fizzbuzz-api where you will find the Dockerfile.
